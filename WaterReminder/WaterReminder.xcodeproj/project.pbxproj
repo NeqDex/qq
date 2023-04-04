@@ -1,0 +1,1067 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EA4BB5829D9462400324378 /* WaterReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BB5729D9462400324378 /* WaterReminderApp.swift */; };
+		6EA4BB5A29D9462400324378 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BB5929D9462400324378 /* ContentView.swift */; };
+		6EA4BB5C29D9462600324378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4BB5B29D9462600324378 /* Assets.xcassets */; };
+		6EA4BB5F29D9462600324378 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4BB5E29D9462600324378 /* Preview Assets.xcassets */; };
+		6EA4BB6929D9462700324378 /* WaterReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BB6829D9462700324378 /* WaterReminderTests.swift */; };
+		6EA4BB7329D9462700324378 /* WaterReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BB7229D9462700324378 /* WaterReminderUITests.swift */; };
+		6EA4BB7529D9462700324378 /* WaterReminderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BB7429D9462700324378 /* WaterReminderUITestsLaunchTests.swift */; };
+		6EA4BB7B29D9462700324378 /* WaterReminder Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6EA4BB7A29D9462700324378 /* WaterReminder Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6EA4BB8029D9462700324378 /* WaterReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BB7F29D9462700324378 /* WaterReminderApp.swift */; };
+		6EA4BB8229D9462700324378 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BB8129D9462700324378 /* ContentView.swift */; };
+		6EA4BB8429D9462800324378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4BB8329D9462800324378 /* Assets.xcassets */; };
+		6EA4BB8729D9462800324378 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4BB8629D9462800324378 /* Preview Assets.xcassets */; };
+		6EA4BB9129D9462800324378 /* WaterReminder_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BB9029D9462800324378 /* WaterReminder_Watch_AppTests.swift */; };
+		6EA4BB9B29D9462800324378 /* WaterReminder_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BB9A29D9462800324378 /* WaterReminder_Watch_AppUITests.swift */; };
+		6EA4BB9D29D9462800324378 /* WaterReminder_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BB9C29D9462800324378 /* WaterReminder_Watch_AppUITestsLaunchTests.swift */; };
+		6EA4BBB429D9469A00324378 /* WaterInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BBB329D9469A00324378 /* WaterInputView.swift */; };
+		6EA4BBB629D946D900324378 /* WaterProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BBB529D946D900324378 /* WaterProgressView.swift */; };
+		6EA4BBB829D9473000324378 /* WaterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BBB729D9473000324378 /* WaterData.swift */; };
+		6EA4BBBA29DB6C6800324378 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BBB929DB6C6800324378 /* StatisticsView.swift */; };
+		6EA4BBBC29DB6FA800324378 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BBBB29DB6FA800324378 /* HealthStore.swift */; };
+		6EA4BBBE29DB704700324378 /* ReminderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4BBBD29DB704700324378 /* ReminderSettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EA4BB6529D9462700324378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EA4BB4C29D9462400324378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EA4BB5329D9462400324378;
+			remoteInfo = WaterReminder;
+		};
+		6EA4BB6F29D9462700324378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EA4BB4C29D9462400324378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EA4BB5329D9462400324378;
+			remoteInfo = WaterReminder;
+		};
+		6EA4BB7C29D9462700324378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EA4BB4C29D9462400324378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EA4BB7929D9462700324378;
+			remoteInfo = "WaterReminder Watch App";
+		};
+		6EA4BB8D29D9462800324378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EA4BB4C29D9462400324378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EA4BB7929D9462700324378;
+			remoteInfo = "WaterReminder Watch App";
+		};
+		6EA4BB9729D9462800324378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EA4BB4C29D9462400324378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EA4BB7929D9462700324378;
+			remoteInfo = "WaterReminder Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6EA4BBA329D9462800324378 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6EA4BB7B29D9462700324378 /* WaterReminder Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6E43DCCE29DB7CA8008F14B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6E8C3BEA29DCA4BC005074B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8C3BEC29DCA70A005074B6 /* WaterReminder Watch AppRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WaterReminder Watch AppRelease.entitlements"; sourceTree = "<group>"; };
+		6E8C3BED29DCA7B9005074B6 /* WaterReminder Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WaterReminder Watch App.entitlements"; sourceTree = "<group>"; };
+		6EA4BB5429D9462400324378 /* WaterReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA4BB5729D9462400324378 /* WaterReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminderApp.swift; sourceTree = "<group>"; };
+		6EA4BB5929D9462400324378 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EA4BB5B29D9462600324378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EA4BB5E29D9462600324378 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EA4BB6429D9462700324378 /* WaterReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA4BB6829D9462700324378 /* WaterReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminderTests.swift; sourceTree = "<group>"; };
+		6EA4BB6E29D9462700324378 /* WaterReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA4BB7229D9462700324378 /* WaterReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminderUITests.swift; sourceTree = "<group>"; };
+		6EA4BB7429D9462700324378 /* WaterReminderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EA4BB7A29D9462700324378 /* WaterReminder Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WaterReminder Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA4BB7F29D9462700324378 /* WaterReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminderApp.swift; sourceTree = "<group>"; };
+		6EA4BB8129D9462700324378 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EA4BB8329D9462800324378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EA4BB8629D9462800324378 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EA4BB8C29D9462800324378 /* WaterReminder Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WaterReminder Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA4BB9029D9462800324378 /* WaterReminder_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminder_Watch_AppTests.swift; sourceTree = "<group>"; };
+		6EA4BB9629D9462800324378 /* WaterReminder Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WaterReminder Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA4BB9A29D9462800324378 /* WaterReminder_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminder_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		6EA4BB9C29D9462800324378 /* WaterReminder_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminder_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EA4BBB329D9469A00324378 /* WaterInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterInputView.swift; sourceTree = "<group>"; };
+		6EA4BBB529D946D900324378 /* WaterProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterProgressView.swift; sourceTree = "<group>"; };
+		6EA4BBB729D9473000324378 /* WaterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterData.swift; sourceTree = "<group>"; };
+		6EA4BBB929DB6C6800324378 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		6EA4BBBB29DB6FA800324378 /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		6EA4BBBD29DB704700324378 /* ReminderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EA4BB5129D9462400324378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB6129D9462700324378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB6B29D9462700324378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB7729D9462700324378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB8929D9462800324378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB9329D9462800324378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EA4BB4B29D9462400324378 = {
+			isa = PBXGroup;
+			children = (
+				6EA4BB5629D9462400324378 /* WaterReminder */,
+				6EA4BB6729D9462700324378 /* WaterReminderTests */,
+				6EA4BB7129D9462700324378 /* WaterReminderUITests */,
+				6EA4BB7E29D9462700324378 /* WaterReminder Watch App */,
+				6EA4BB8F29D9462800324378 /* WaterReminder Watch AppTests */,
+				6EA4BB9929D9462800324378 /* WaterReminder Watch AppUITests */,
+				6EA4BB5529D9462400324378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EA4BB5529D9462400324378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4BB5429D9462400324378 /* WaterReminder.app */,
+				6EA4BB6429D9462700324378 /* WaterReminderTests.xctest */,
+				6EA4BB6E29D9462700324378 /* WaterReminderUITests.xctest */,
+				6EA4BB7A29D9462700324378 /* WaterReminder Watch App.app */,
+				6EA4BB8C29D9462800324378 /* WaterReminder Watch AppTests.xctest */,
+				6EA4BB9629D9462800324378 /* WaterReminder Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EA4BB5629D9462400324378 /* WaterReminder */ = {
+			isa = PBXGroup;
+			children = (
+				6E43DCCE29DB7CA8008F14B2 /* Info.plist */,
+				6EA4BB5729D9462400324378 /* WaterReminderApp.swift */,
+				6EA4BB5929D9462400324378 /* ContentView.swift */,
+				6EA4BB5B29D9462600324378 /* Assets.xcassets */,
+				6EA4BB5D29D9462600324378 /* Preview Content */,
+			);
+			path = WaterReminder;
+			sourceTree = "<group>";
+		};
+		6EA4BB5D29D9462600324378 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4BB5E29D9462600324378 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EA4BB6729D9462700324378 /* WaterReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4BB6829D9462700324378 /* WaterReminderTests.swift */,
+			);
+			path = WaterReminderTests;
+			sourceTree = "<group>";
+		};
+		6EA4BB7129D9462700324378 /* WaterReminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4BB7229D9462700324378 /* WaterReminderUITests.swift */,
+				6EA4BB7429D9462700324378 /* WaterReminderUITestsLaunchTests.swift */,
+			);
+			path = WaterReminderUITests;
+			sourceTree = "<group>";
+		};
+		6EA4BB7E29D9462700324378 /* WaterReminder Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C3BED29DCA7B9005074B6 /* WaterReminder Watch App.entitlements */,
+				6E8C3BEC29DCA70A005074B6 /* WaterReminder Watch AppRelease.entitlements */,
+				6EA4BB7F29D9462700324378 /* WaterReminderApp.swift */,
+				6EA4BB8129D9462700324378 /* ContentView.swift */,
+				6EA4BB8329D9462800324378 /* Assets.xcassets */,
+				6EA4BB8529D9462800324378 /* Preview Content */,
+				6EA4BBB329D9469A00324378 /* WaterInputView.swift */,
+				6EA4BBB529D946D900324378 /* WaterProgressView.swift */,
+				6EA4BBB729D9473000324378 /* WaterData.swift */,
+				6EA4BBB929DB6C6800324378 /* StatisticsView.swift */,
+				6EA4BBBB29DB6FA800324378 /* HealthStore.swift */,
+				6EA4BBBD29DB704700324378 /* ReminderSettingsView.swift */,
+				6E8C3BEA29DCA4BC005074B6 /* Info.plist */,
+			);
+			path = "WaterReminder Watch App";
+			sourceTree = "<group>";
+		};
+		6EA4BB8529D9462800324378 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4BB8629D9462800324378 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EA4BB8F29D9462800324378 /* WaterReminder Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4BB9029D9462800324378 /* WaterReminder_Watch_AppTests.swift */,
+			);
+			path = "WaterReminder Watch AppTests";
+			sourceTree = "<group>";
+		};
+		6EA4BB9929D9462800324378 /* WaterReminder Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4BB9A29D9462800324378 /* WaterReminder_Watch_AppUITests.swift */,
+				6EA4BB9C29D9462800324378 /* WaterReminder_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "WaterReminder Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EA4BB5329D9462400324378 /* WaterReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA4BBA429D9462800324378 /* Build configuration list for PBXNativeTarget "WaterReminder" */;
+			buildPhases = (
+				6EA4BB5029D9462400324378 /* Sources */,
+				6EA4BB5129D9462400324378 /* Frameworks */,
+				6EA4BB5229D9462400324378 /* Resources */,
+				6EA4BBA329D9462800324378 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EA4BB7D29D9462700324378 /* PBXTargetDependency */,
+			);
+			name = WaterReminder;
+			productName = WaterReminder;
+			productReference = 6EA4BB5429D9462400324378 /* WaterReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EA4BB6329D9462700324378 /* WaterReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA4BBA729D9462800324378 /* Build configuration list for PBXNativeTarget "WaterReminderTests" */;
+			buildPhases = (
+				6EA4BB6029D9462700324378 /* Sources */,
+				6EA4BB6129D9462700324378 /* Frameworks */,
+				6EA4BB6229D9462700324378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EA4BB6629D9462700324378 /* PBXTargetDependency */,
+			);
+			name = WaterReminderTests;
+			productName = WaterReminderTests;
+			productReference = 6EA4BB6429D9462700324378 /* WaterReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EA4BB6D29D9462700324378 /* WaterReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA4BBAA29D9462800324378 /* Build configuration list for PBXNativeTarget "WaterReminderUITests" */;
+			buildPhases = (
+				6EA4BB6A29D9462700324378 /* Sources */,
+				6EA4BB6B29D9462700324378 /* Frameworks */,
+				6EA4BB6C29D9462700324378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EA4BB7029D9462700324378 /* PBXTargetDependency */,
+			);
+			name = WaterReminderUITests;
+			productName = WaterReminderUITests;
+			productReference = 6EA4BB6E29D9462700324378 /* WaterReminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6EA4BB7929D9462700324378 /* WaterReminder Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA4BBA029D9462800324378 /* Build configuration list for PBXNativeTarget "WaterReminder Watch App" */;
+			buildPhases = (
+				6EA4BB7629D9462700324378 /* Sources */,
+				6EA4BB7729D9462700324378 /* Frameworks */,
+				6EA4BB7829D9462700324378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WaterReminder Watch App";
+			productName = "WaterReminder Watch App";
+			productReference = 6EA4BB7A29D9462700324378 /* WaterReminder Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EA4BB8B29D9462800324378 /* WaterReminder Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA4BBAD29D9462800324378 /* Build configuration list for PBXNativeTarget "WaterReminder Watch AppTests" */;
+			buildPhases = (
+				6EA4BB8829D9462800324378 /* Sources */,
+				6EA4BB8929D9462800324378 /* Frameworks */,
+				6EA4BB8A29D9462800324378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EA4BB8E29D9462800324378 /* PBXTargetDependency */,
+			);
+			name = "WaterReminder Watch AppTests";
+			productName = "WaterReminder Watch AppTests";
+			productReference = 6EA4BB8C29D9462800324378 /* WaterReminder Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EA4BB9529D9462800324378 /* WaterReminder Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA4BBB029D9462800324378 /* Build configuration list for PBXNativeTarget "WaterReminder Watch AppUITests" */;
+			buildPhases = (
+				6EA4BB9229D9462800324378 /* Sources */,
+				6EA4BB9329D9462800324378 /* Frameworks */,
+				6EA4BB9429D9462800324378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EA4BB9829D9462800324378 /* PBXTargetDependency */,
+			);
+			name = "WaterReminder Watch AppUITests";
+			productName = "WaterReminder Watch AppUITests";
+			productReference = 6EA4BB9629D9462800324378 /* WaterReminder Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EA4BB4C29D9462400324378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6EA4BB5329D9462400324378 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					6EA4BB6329D9462700324378 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6EA4BB5329D9462400324378;
+					};
+					6EA4BB6D29D9462700324378 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6EA4BB5329D9462400324378;
+					};
+					6EA4BB7929D9462700324378 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					6EA4BB8B29D9462800324378 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6EA4BB7929D9462700324378;
+					};
+					6EA4BB9529D9462800324378 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6EA4BB7929D9462700324378;
+					};
+				};
+			};
+			buildConfigurationList = 6EA4BB4F29D9462400324378 /* Build configuration list for PBXProject "WaterReminder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EA4BB4B29D9462400324378;
+			productRefGroup = 6EA4BB5529D9462400324378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EA4BB5329D9462400324378 /* WaterReminder */,
+				6EA4BB6329D9462700324378 /* WaterReminderTests */,
+				6EA4BB6D29D9462700324378 /* WaterReminderUITests */,
+				6EA4BB7929D9462700324378 /* WaterReminder Watch App */,
+				6EA4BB8B29D9462800324378 /* WaterReminder Watch AppTests */,
+				6EA4BB9529D9462800324378 /* WaterReminder Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EA4BB5229D9462400324378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA4BB5F29D9462600324378 /* Preview Assets.xcassets in Resources */,
+				6EA4BB5C29D9462600324378 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB6229D9462700324378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB6C29D9462700324378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB7829D9462700324378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA4BB8729D9462800324378 /* Preview Assets.xcassets in Resources */,
+				6EA4BB8429D9462800324378 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB8A29D9462800324378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB9429D9462800324378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EA4BB5029D9462400324378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA4BB5A29D9462400324378 /* ContentView.swift in Sources */,
+				6EA4BB5829D9462400324378 /* WaterReminderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB6029D9462700324378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA4BB6929D9462700324378 /* WaterReminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB6A29D9462700324378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA4BB7529D9462700324378 /* WaterReminderUITestsLaunchTests.swift in Sources */,
+				6EA4BB7329D9462700324378 /* WaterReminderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB7629D9462700324378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA4BBB429D9469A00324378 /* WaterInputView.swift in Sources */,
+				6EA4BBBA29DB6C6800324378 /* StatisticsView.swift in Sources */,
+				6EA4BBB629D946D900324378 /* WaterProgressView.swift in Sources */,
+				6EA4BBB829D9473000324378 /* WaterData.swift in Sources */,
+				6EA4BB8229D9462700324378 /* ContentView.swift in Sources */,
+				6EA4BB8029D9462700324378 /* WaterReminderApp.swift in Sources */,
+				6EA4BBBC29DB6FA800324378 /* HealthStore.swift in Sources */,
+				6EA4BBBE29DB704700324378 /* ReminderSettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB8829D9462800324378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA4BB9129D9462800324378 /* WaterReminder_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4BB9229D9462800324378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA4BB9D29D9462800324378 /* WaterReminder_Watch_AppUITestsLaunchTests.swift in Sources */,
+				6EA4BB9B29D9462800324378 /* WaterReminder_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EA4BB6629D9462700324378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EA4BB5329D9462400324378 /* WaterReminder */;
+			targetProxy = 6EA4BB6529D9462700324378 /* PBXContainerItemProxy */;
+		};
+		6EA4BB7029D9462700324378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EA4BB5329D9462400324378 /* WaterReminder */;
+			targetProxy = 6EA4BB6F29D9462700324378 /* PBXContainerItemProxy */;
+		};
+		6EA4BB7D29D9462700324378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EA4BB7929D9462700324378 /* WaterReminder Watch App */;
+			targetProxy = 6EA4BB7C29D9462700324378 /* PBXContainerItemProxy */;
+		};
+		6EA4BB8E29D9462800324378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EA4BB7929D9462700324378 /* WaterReminder Watch App */;
+			targetProxy = 6EA4BB8D29D9462800324378 /* PBXContainerItemProxy */;
+		};
+		6EA4BB9829D9462800324378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EA4BB7929D9462700324378 /* WaterReminder Watch App */;
+			targetProxy = 6EA4BB9729D9462800324378 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6EA4BB9E29D9462800324378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_WKWatchOnly = NO;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EA4BB9F29D9462800324378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_WKWatchOnly = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6EA4BBA129D9462800324378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WaterReminder Watch App/WaterReminder Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterReminder Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = FPV38BVU76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterReminder;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dexMe.WaterReminder;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dexMe.WaterReminder.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		6EA4BBA229D9462800324378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WaterReminder Watch App/WaterReminder Watch AppRelease.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterReminder Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = FPV38BVU76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterReminder;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dexMe.WaterReminder;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dexMe.WaterReminder.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		6EA4BBA529D9462800324378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterReminder/Preview Content\"";
+				DEVELOPMENT_TEAM = FPV38BVU76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaterReminder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterReminder;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_WKWatchOnly = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dexMe.WaterReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EA4BBA629D9462800324378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterReminder/Preview Content\"";
+				DEVELOPMENT_TEAM = FPV38BVU76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaterReminder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterReminder;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_WKWatchOnly = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dexMe.WaterReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EA4BBA829D9462800324378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPV38BVU76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dexMe.WaterReminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterReminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaterReminder";
+			};
+			name = Debug;
+		};
+		6EA4BBA929D9462800324378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPV38BVU76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dexMe.WaterReminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterReminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaterReminder";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EA4BBAB29D9462800324378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPV38BVU76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dexMe.WaterReminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterReminder;
+			};
+			name = Debug;
+		};
+		6EA4BBAC29D9462800324378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPV38BVU76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dexMe.WaterReminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterReminder;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EA4BBAE29D9462800324378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPV38BVU76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dexMe.WaterReminder-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterReminder Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaterReminder Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		6EA4BBAF29D9462800324378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPV38BVU76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dexMe.WaterReminder-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterReminder Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaterReminder Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		6EA4BBB129D9462800324378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPV38BVU76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dexMe.WaterReminder-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WaterReminder Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		6EA4BBB229D9462800324378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPV38BVU76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dexMe.WaterReminder-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WaterReminder Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EA4BB4F29D9462400324378 /* Build configuration list for PBXProject "WaterReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA4BB9E29D9462800324378 /* Debug */,
+				6EA4BB9F29D9462800324378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA4BBA029D9462800324378 /* Build configuration list for PBXNativeTarget "WaterReminder Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA4BBA129D9462800324378 /* Debug */,
+				6EA4BBA229D9462800324378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA4BBA429D9462800324378 /* Build configuration list for PBXNativeTarget "WaterReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA4BBA529D9462800324378 /* Debug */,
+				6EA4BBA629D9462800324378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA4BBA729D9462800324378 /* Build configuration list for PBXNativeTarget "WaterReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA4BBA829D9462800324378 /* Debug */,
+				6EA4BBA929D9462800324378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA4BBAA29D9462800324378 /* Build configuration list for PBXNativeTarget "WaterReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA4BBAB29D9462800324378 /* Debug */,
+				6EA4BBAC29D9462800324378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA4BBAD29D9462800324378 /* Build configuration list for PBXNativeTarget "WaterReminder Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA4BBAE29D9462800324378 /* Debug */,
+				6EA4BBAF29D9462800324378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA4BBB029D9462800324378 /* Build configuration list for PBXNativeTarget "WaterReminder Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA4BBB129D9462800324378 /* Debug */,
+				6EA4BBB229D9462800324378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EA4BB4C29D9462400324378 /* Project object */;
+}
